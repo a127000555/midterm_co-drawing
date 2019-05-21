@@ -8,6 +8,7 @@ import Login from "./Login/Login.js";
 import Home from "./Home/Home.js";
 import Cookies from 'universal-cookie';
 import './Blog.css';
+import "../../const"
 
 export default class Blog extends Component {
     constructor(props) {

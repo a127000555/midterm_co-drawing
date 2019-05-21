@@ -1,9 +1,10 @@
 import React, { Component } from "react";
+import "../../../const";
 import "../Blog.css"
 import { NavLink } from "react-router-dom";
 import io from "socket.io-client";
 import "./RoomRender.css"
-const server_url = "http://localhost:8000";
+import {server_url} from  "../../../const"
 var socket = undefined;
 
 // import { NavLink } from "react-router-dom";

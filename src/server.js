@@ -1,8 +1,10 @@
+import {server_port, db_connect} from  "const"
+
 const mongoose = require('mongoose');
 
 var socket_io = require('socket.io');
-var io = socket_io.listen(8000);
-mongoose.connect('mongodb+srv://arvin:a127000555@cluster0-kzyxa.gcp.mongodb.net/test?retryWrites=true', {
+var io = socket_io.listen(server_port);
+mongoose.connect(db_connect, {
     useNewUrlParser: true
 });
 handleError = console.log;
@@ -96,7 +98,8 @@ io.sockets.on('connection', function(socket){
             last_broadcast_time = (+new Date());    
         }
     }
-    setInterval(broadcast_room_entry,3000);
+    setInterval(broadcast_room_entry,3
+        000);
     socket.on('look_room_request',function(data){
         RoomEntry.find({}, function(err,data){
             if(err)

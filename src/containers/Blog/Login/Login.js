@@ -1,14 +1,15 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import io from "socket.io-client";
-// import { readdir } from "fs";
-const server_url = "http://localhost:8000";
+import {server_url} from  "../../../const"
+// export const server_url = "http://localhost:8000"
 
 export default class Login extends Component {
     
     constructor(props) {
         super(props);
         this.cookies = props.cookies;
+        
         this.state = {
             message : ""
         };

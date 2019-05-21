@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import io from "socket.io-client";
 import "./Room.css"
-const server_url = "http://localhost:8000";
+import {server_url} from  "../../../const"
+
 var socket = undefined;
 export default class Rooms extends Component {
     

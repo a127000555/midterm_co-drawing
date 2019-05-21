@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import io from "socket.io-client";
-const server_url = "http://localhost:8000";
+import {server_url} from  "../../../const"
 
 
 export default class Register extends Component {
