@@ -1,0 +1,25 @@
+.nav_bar{
+    margin: auto;
+    align-items: center;
+    align-content: center;
+    text-align:center;    
+    border: 3px;
+    height: 20px;
+    border-color: gray;
+    width: 500px;
+}
+.nav_btn{
+    text-decoration: none !important;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    /* font-weight: bold; */
+    display: inline-flex;
+}
+.context{
+
+    margin: auto;
+    align-items: center;
+    align-content: center;
+    text-align:center;
+}

@@ -1,0 +1,21 @@
+.delete_btn{
+    color: black
+}
+.delete_btn:hover {
+    color: red;
+}
+.room_entry{
+    width: 300px;
+    height: 50px;
+    margin: 0px; 
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+.room_entry:hover{
+    background-color: rgba(0,255,255,0.2)
+}
+.room_entry:active{
+    background-color: rgba(255, 0, 0, 0.2)
+
+}

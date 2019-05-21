@@ -1,0 +1,55 @@
+.roomBody{
+    text-align: center;
+    margin: auto;
+    width : 600px;
+}
+.leftRoomBody{
+    width : 100px;
+    float: left;
+    height: 400px;
+    border-style : solid;
+    border-width: 2px;
+    border-radius: 10px;
+
+}
+.rightRoomBody{
+    float: right;
+    width : 480px;
+}
+.canvasSection{
+    height: 300px;
+    width : 480px;
+    border-radius: 4px;
+    border-width: 2px;
+    border-style : solid;
+}
+.aggregatedCanvas{
+    height: 290px;
+    width : 470px;
+    margin-top: 5px;
+}
+.messageSection{
+    height: 60px;
+    width : 480px;
+    border-radius: 4px;
+    border-width: 2px;
+    border-style : solid;
+    margin-top: 5px; 
+}
+
+.message{
+    height: 55px;   
+    overflow-y: scroll; 
+    overflow-wrap: break-word;
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.inputMessage{
+    height: 20px;
+    width : 480px;
+    border-radius: 4px;
+    border-width: 2px;
+    border-style : solid;
+    margin-top: 5px; 
+}

@@ -1,0 +1,9 @@
+.rw-words{
+    color: white;
+    font-weight: bold;
+    display: block;
+    position: relative;
+}
+.rw-words-2 span{
+	animation: rotateWordsSecond 18s linear infinite 0s;
+}
